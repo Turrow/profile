@@ -1,0 +1,102 @@
+
+
+body {
+  background: #cecece;
+  font-family: 'Roboto Slab', serif
+  font-size: 24px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  color: #f44336;
+  padding-top: 30px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  color: #247ba0;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+img {
+  border-radius: 50%;
+  width: 120px;
+
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.4);
+}
+
+p {
+  font-size: 16px;
+  font-color: #f25f5c;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.container {
+  margin: 0px auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+
+}
+
+.card {
+  background: white;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.4);
+
+}
+
+#first-card p {
+  padding-bottom: 20px;
+}
+
+#first-card {
+  padding-bottom: 40px;
+  }
+
+#btn-red {
+  background-color: #f44336;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  font-size: 60px;
+  margin: 5px;
+}
+
+@media (max-width: 1960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
