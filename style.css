@@ -9,7 +9,7 @@ body {
 
 h1 {
   font-family: 'Roboto Slab', serif;
-  color: #f44336;
+  color: black; /*#f44336;*/
   padding-top: 30px;
 }
 
@@ -25,7 +25,7 @@ img {
   border-radius: 50%;
   width: 120px;
 
-  box-shadow: 2px 2px 30px rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.5);
 }
 
 p {
@@ -35,23 +35,33 @@ p {
 
 a {
   text-decoration: none;
+  color: rgb(150,150,150);
+}
 
+#red-font{
+  color:#f44336;
+  font-size: 20px;
 }
 
 a:hover {
   opacity: 0.7;
+
 }
+
+#hover-black:hover{
+  color: black;
+}
+
+
 
 .container {
   margin: 0px auto;
   text-align: center;
   padding: 10px;
-  border-radius: 4px;
-
 }
 
 .card {
-  background: white;
+  background: rgba(240,240,240);
   box-shadow: 2px 2px 30px rgba(0,0,0,0.4);
 
 }
@@ -62,6 +72,7 @@ a:hover {
 
 #first-card {
   padding-bottom: 40px;
+  border-radius: 8px;
   }
 
 #btn-red {
@@ -70,6 +81,7 @@ a:hover {
   padding: 15px;
   margin: 10px;
   border-radius: 4px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.4)
 }
 
 
